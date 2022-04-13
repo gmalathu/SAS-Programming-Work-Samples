@@ -1,6 +1,6 @@
-libname odscacs oracle user="GMALATHU" password="Ph03n1x112!" path=prdBIDW schema=ods_cacs;
-libname dwprd oracle user="GMALATHU" password="Ph03n1x112!" path=prdBIDW schema=dwprd;
-libname cxprd oracle user="GMALATHU" password="Ph03n1x112!" path=prdBIDW schema=cxprd;
+libname odscacs oracle user="GMALATHU" password="Ph03n1xABC!" path=prdBIDW schema=ods_cacs;
+libname dwprd oracle user="GMALATHU" password="Ph03n1xABC!" path=prdBIDW schema=dwprd;
+libname cxprd oracle user="GMALATHU" password="Ph03n1xABC!" path=prdBIDW schema=cxprd;
 options compress=yes;
 option sastrace = ',b.,b.,b.d' sastraceloc=saslog nostsuffix;
 libname barb 'E:\barb';
@@ -145,11 +145,11 @@ quit;
 /*quit;*/
 
 /*Create segmentation column based on advertising exec standard age based segments:*/
-/*18 – 24*/
-/*25 – 34*/
-/*35 – 44*/
-/*45 – 54*/
-/*55 – 64*/
+/*18 â€“ 24*/
+/*25 â€“ 34*/
+/*35 â€“ 44*/
+/*45 â€“ 54*/
+/*55 â€“ 64*/
 /*65+*/
 
 proc sql;
