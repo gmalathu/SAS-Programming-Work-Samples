@@ -12,3 +12,4 @@ campaigns and other collections & recovery related actions.
 BTCC - Best Time To Call Reporting
 Max Attempts
 Post RPC (Right Party Contact) Dialer Event Reporting
+Dialer Velocity
